@@ -1,0 +1,51 @@
+.skill {
+  position: relative;
+  float: left;
+  padding: 20px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.titleE {
+  font-size: 18px;
+}
+
+.bar {
+  display: flex;
+  font-size: 18px;
+  width: 400px;
+  margin-top: 15px;
+}
+
+.barItem {
+  width: 130px;
+  text-align: right;
+}
+
+.barBack {
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+  border: #D3D3D3 solid 0px;
+  margin-left: 10px;
+  background-color: #D3D3D3;
+  overflow: hidden;
+}
+
+.barIn {
+  height: 90%;
+  border-radius: 10px;
+  border: #6495ED solid 1px;
+  background: #6495ED;
+  -webkit-animation: load 3s ease-in;
+}
+
+@-webkit-keyframes load {
+  0% {
+    width: 0%;
+  }
+
+  100% {}
+}

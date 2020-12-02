@@ -1,0 +1,10 @@
+.exp {
+  position: relative;
+  float: left;
+  padding: 20px;
+}
+
+.titleExp {
+  position: absolute;
+  font-size: 40px;
+}

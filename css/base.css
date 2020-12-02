@@ -1,0 +1,97 @@
+body {
+  font-family: "微軟正黑體";
+  background-color: #DDDDDD;
+}
+
+.base {
+  position: relative;
+  z-index: 0;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  display: flex;
+  margin-top: -10px;
+}
+
+header {
+  z-index: 1;
+  position: fixed;
+  border-radius: 0px;
+  width: 300px;
+  top: 0px;
+  bottom: 0%;
+  background-color: #B0C4DE;
+  float: left;
+}
+
+.pic img {
+  transform: scale(1, 1);
+  transition: all 1s ease-out;
+}
+
+.pic img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.content {
+  position: relative;
+  margin-left: 300px;
+  padding: 10px;
+}
+
+.photo {
+  position: relative;
+  width: 70%;
+  top: 30px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.contact {
+  position: relative;
+  top: 7%;
+  left: 5%;
+}
+
+.name {
+  font-size: 30px;
+  text-align: center;
+  color: #666666;
+  word-spacing: 5px;
+  writing-mode: vertical-rl;
+  padding: 15px;
+}
+
+.social {
+  position: relative;
+  margin-left: 15px;
+  padding: 10px;
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.icon {
+  position: relative;
+  top: 7%;
+  padding: 10px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  color: #444444;
+}
+
+.quote {
+  position: relative;
+  width: 240px;
+  bottom: -12%;
+  padding: 10px;
+  padding-left: 17%;
+  display: flex;
+  font-size: 22px;
+  text-align: right;
+  background-color: #F5F5F5;
+  font-style: italic;
+}
